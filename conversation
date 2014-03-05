@@ -1,0 +1,8 @@
+start = "Hello, "
+name = raw_input("what is your name? ")
+name = name.capitilize()
+up = raw_input("what is your last name? ")
+up = up.capitilize
+end = ". nice to meet you!"
+sentence = start + ' '+ name + ' ' + up + end
+print(sentence)
